@@ -5,11 +5,15 @@ import { NgModule } from '@angular/core';
 import { SharedModule } from '@app/shared';
 
 import { AppComponent } from './app.component';
+import { PigLatinHistoryComponent } from './feature/pig-latin/component/pig-latin-history/pig-latin-history.component';
+import { PigLatinComponent } from './feature/pig-latin/component/pig-latin/pig-latin.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PigLatinHistoryComponent,
+    PigLatinComponent
   ],
   imports: [
     BrowserModule,
