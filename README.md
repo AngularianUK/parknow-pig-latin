@@ -2,8 +2,6 @@
 
 ![Application screenshot](docs/img/app-screenshot.jpg)
 
-THIS IS AN EARLY WORK-IN-PROGRESS AND NOT READY FOR PUBLIC CONSUMPTION OR TESTING YET!
-
 ## About this Exercise
 
 This is a Pig Latin converter. For more information on Pig Latin check [Wikipedia](https://en.wikipedia.org/wiki/Pig_Latin)
@@ -40,7 +38,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ![Karma Unit Tests](docs/img/karma-tests.jpg)
 
-FULL SUITE OF UNIT TESTS COMING SOON!
+More unit tests are needed, but there are a few here to get started.
 
 Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io)
 
