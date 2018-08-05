@@ -1,3 +1,10 @@
-<p>
-  pig-latin-history works!
-</p>
+<mat-card>
+  <mat-card-title class="primary">
+    {{ title }}
+  </mat-card-title>
+  <mat-card-content class="primary-history"  *ngFor="let historyItem of translationHistory">
+    {{ historyItem.input }}
+    :
+    {{ historyItem.output }}
+  </mat-card-content>
+</mat-card>

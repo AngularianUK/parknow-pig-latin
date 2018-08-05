@@ -1,6 +1,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from '@app/app.component';
 import { PigLatinComponent } from '@app/feature/pig-latin/component/pig-latin/pig-latin.component';
+import { PigLatinHistoryComponent } from '@app/feature/pig-latin/component/pig-latin-history/pig-latin-history.component';
 import { SharedModule } from '@app/shared';
 
 describe('AppComponent', () => {
@@ -8,7 +9,8 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        PigLatinComponent
+        PigLatinComponent,
+        PigLatinHistoryComponent
       ],
       imports: [
         SharedModule

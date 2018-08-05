@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PigLatinHistoryComponent } from './pig-latin-history.component';
+import { SharedModule } from '@app/shared';
 
 describe('PigLatinHistoryComponent', () => {
   let component: PigLatinHistoryComponent;
@@ -8,7 +9,10 @@ describe('PigLatinHistoryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PigLatinHistoryComponent ]
+      declarations: [ PigLatinHistoryComponent ],
+      imports: [
+        SharedModule
+      ],
     })
     .compileComponents();
   }));
