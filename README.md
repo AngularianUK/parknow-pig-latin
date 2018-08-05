@@ -6,7 +6,7 @@ THIS IS AN EARLY WORK-IN-PROGRESS AND NOT READY FOR PUBLIC CONSUMPTION OR TESTIN
 
 ## About this Exercise
 
-This is a Pig Latin converter. For more information on Pig Latin check [Wikipedia]  (<https://en.wikipedia.org/wiki/Pig_Latin)>
+This is a Pig Latin converter. For more information on Pig Latin check [Wikipedia](https://en.wikipedia.org/wiki/Pig_Latin)
 
 ## Demo
 
