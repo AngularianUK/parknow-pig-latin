@@ -1,27 +1,55 @@
-# ParknowPigLatin
+# Parknow Pig Latin Exercise
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
+![Application screenshot](docs/img/app-screenshot.jpg)
 
-## Development server
+THIS IS AN EARLY WORK-IN-PROGRESS AND NOT READY FOR PUBLIC CONSUMPTION OR TESTING YET!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## About this Exercise
 
-## Code scaffolding
+This is a Pig Latin converter. For more information on Pig Latin check [Wikipedia]  (<https://en.wikipedia.org/wiki/Pig_Latin)>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
+
+You can run the demo of this code here on [Github Pages]: (<https://AngularianUK.github.io/parknow-pig-latin)>
+
+In truth, Angular is overkill for a small converter like this, but as a requirement for a programming interview this code implements the converter, demonstrating the following features of Angular:
+
+- Angular Material components for the UI including custom Angular Material theming
+- parent and child components for the main translator and recent history to demonstrate inter-component communication
+- Angular injected service instances to keep the components lightweight
+
+The project does not use Redux (ngRx) - the author's preferred pattern for Enterprise apps - as that seemed overkill!
+
+## Getting Started
+
+`git clone https://github.com/AngularianUK/PigLatin.git pig-latin`
+
+`cd pig-latin`
+
+`npm install`
+
+`npm start`
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Running automated tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Running Unit Tests
 
-## Running end-to-end tests
+![Karma Unit Tests](docs/img/karma-tests.jpg)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+FULL SUITE OF UNIT TESTS COMING SOON!
 
-## Further help
+Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Running end-to-end tests
+
+![Protractor E2E Tests](docs/img/protractor-tests.jpg)
+
+COMING SOON!
+
+Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Architecture Overview
