@@ -10,7 +10,7 @@ This is a Pig Latin converter. For more information on Pig Latin check [Wikipedi
 
 ## Demo
 
-You can run the demo of this code here on [Github Pages]: (<https://AngularianUK.github.io/parknow-pig-latin)>
+You can run the demo of this code here on [Github Pages](https://AngularianUK.github.io/parknow-pig-latin)
 
 In truth, Angular is overkill for a small converter like this, but as a requirement for a programming interview this code implements the converter, demonstrating the following features of Angular:
 
@@ -42,7 +42,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 FULL SUITE OF UNIT TESTS COMING SOON!
 
-Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io)
 
 ### Running end-to-end tests
 
@@ -50,6 +50,8 @@ Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github
 
 COMING SOON!
 
-Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/)
 
-## Architecture Overview
+## Marchitecture Diagram
+
+![Marchitecture Diagram](docs/img/marchitecture.jpg)
