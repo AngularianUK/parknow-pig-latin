@@ -1,10 +1,17 @@
 import { TestBed, async } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { AppComponent } from '@app/app.component';
+import { PigLatinComponent } from '@app/feature/pig-latin/component/pig-latin/pig-latin.component';
+import { SharedModule } from '@app/shared';
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        PigLatinComponent
+      ],
+      imports: [
+        SharedModule
       ],
     }).compileComponents();
   }));

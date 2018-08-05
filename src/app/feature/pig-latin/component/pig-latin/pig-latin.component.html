@@ -1,3 +1,13 @@
-<p>
-  pig-latin works!
-</p>
+<mat-card>
+  <mat-card-title class="big-text primary-header">
+    {{ currentPigLatinTranslation.output }}
+  </mat-card-title>
+</mat-card>
+<mat-card>
+  <form (submit)="translate(english.value)">
+      <input #english matInput type="search" [(ngModel)]="userInput" class="big-text"
+            placeholder="Enter English here"
+            [ngModelOptions]="{standalone: true}" autofocus>
+      <input type="submit" class="big-text" [disabled]="!userInput.length" value="Translate">
+  </form>
+</mat-card>

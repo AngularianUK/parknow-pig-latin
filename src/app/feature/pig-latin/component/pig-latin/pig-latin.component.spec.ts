@@ -1,4 +1,6 @@
+import { element } from 'protractor';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { SharedModule } from '@app/shared';
 
 import { PigLatinComponent } from './pig-latin.component';
 
@@ -8,7 +10,10 @@ describe('PigLatinComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PigLatinComponent ]
+      declarations: [ PigLatinComponent ],
+      imports: [
+        SharedModule
+      ],
     })
     .compileComponents();
   }));
