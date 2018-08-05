@@ -36,7 +36,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ### Running Unit Tests
 
-![Karma Unit Tests](docs/img/karma-tests.jpg)
+![Karma Unit Tests](docs/img/karmatest.jpg)
 
 More unit tests are needed, but there are a few here to get started.
 
@@ -44,7 +44,7 @@ Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github
 
 ### Running end-to-end tests
 
-![Protractor E2E Tests](docs/img/protractor-tests.jpg)
+![Protractor E2E Tests](docs/img/protractortest.jpg)
 
 COMING SOON!
 
