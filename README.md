@@ -22,7 +22,7 @@ The project does not use Redux (ngRx) - the author's preferred pattern for Enter
 
 ## Getting Started
 
-`git clone https://github.com/AngularianUK/PigLatin.git pig-latin`
+`git clone https://github.com/AngularianUK/parknow-pig-latin.git parknow-pig-latin`
 
 `cd pig-latin`
 
