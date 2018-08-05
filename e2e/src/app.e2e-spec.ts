@@ -7,8 +7,5 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to Pig Latin Converter for Parknow!');
-  });
+  // TODO: Add E2E Tests
 });
